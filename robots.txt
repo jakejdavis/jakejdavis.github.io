@@ -1,1 +1,1 @@
-Sitemap: https://jakejdavis.me/sitemap.xml
+Sitemap: https://jakejdavis.me/portfolio/sitemap.xml
