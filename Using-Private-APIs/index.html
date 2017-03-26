@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Finding & Using Private API's – Jake J Davis – Hobbyist programmer</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Disclaimer
+Before following this tutorial I would recommend asking the owner/owners of the APIs if they permit external usage of their APIs
+
+" />
+    <meta property="og:description" content="Disclaimer
+Before following this tutorial I would recommend asking the owner/owners of the APIs if they permit external usage of their APIs
+
+" />
+    
+    <meta name="author" content="Jake J Davis" />
+
+    
+    <meta property="og:title" content="Finding & Using Private API's" />
+    <meta property="twitter:title" content="Finding & Using Private API's" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Jake J Davis - Hobbyist programmer" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://avatars2.githubusercontent.com/u/11355096" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Jake J Davis</a></h1>
+            <p class="site-description">Hobbyist programmer</p>
+          </div>
+
+          <nav>
+            <a href="/">Projects</a>
+            <a href="/blog">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Finding & Using Private API's</h1>
+
+  <div class="entry">
+    <h2 id="disclaimer">Disclaimer</h2>
+<p>Before following this tutorial I would recommend asking the owner/owners of the APIs if they permit external usage of their APIs</p>
+
+<h2 id="tutorial">Tutorial</h2>
+<p>For my Priory App I wanted to intergrate Show My Homework and E-Praise together, unfortunately neither have public APIs avaliable. To find out how SMHW and Epraise works I used an app called <a href="https://play.google.com/store/apps/details?id=app.greyshirts.sslcapture">Packet Capture</a> which installs a ssl certificate to your device so it can view network traffic though https as well as http. This app is only avaliable on Android but works on non-rooted devices which is the reason I use this app over others.</p>
+
+<p>1) So, this app is pretty simple to use, to start logging network traffic just click the play icon in the top right corner.</p>
+
+<p><img src="../images/Using-Private-APIs/1.png" height="500px" /></p>
+
+<p>2) Then all you have to do is use the app that you want to log traffic for, some apps may not work like Instagram for example.</p>
+
+<p><img src="../images/Using-Private-APIs/2.png" height="500px" /></p>
+
+<p>3) Return back to the app and stop the logging, on this list you can see all the captures that you have ran, click on the most recent (the top one) to view the captures</p>
+
+<p><img src="../images/Using-Private-APIs/3.png" height="500px" /></p>
+
+<p>4) This list shows all the network requests for each app during the time which you were logging, click on one to view the data sent and received</p>
+
+<p><img src="../images/Using-Private-APIs/4.png" height="500px" /></p>
+
+<p>5) This shows the raw data sent between the device and the server, you can see the url and headers but unfortunately the content is unreadable and just a mix of symbols</p>
+
+<p><img src="../images/Using-Private-APIs/5.png" height="500px" /></p>
+
+<p>6) To view this content click on the top right icon labelled “http”, this shows the decoded data and is the reason that the app installs the certificate on the first run.</p>
+
+<p><img src="../images/Using-Private-APIs/6.png" height="500px" /></p>
+
+<p>This app was very useful for helping me find out about the SMHW and Epraise APIs for example, what urls I have to request with what headers and what information it will return.</p>
+
+<p>Thanks for reading :)</p>
+
+  </div>
+
+  <div class="date">
+    Written on March 25, 2017
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:contact@jakejdavis.me"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/jakejdavis"><i class="svg-icon github"></i></a>
+
+
+
+
+
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
