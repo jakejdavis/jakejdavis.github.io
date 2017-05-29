@@ -26,7 +26,6 @@
     <link rel="stylesheet" type="text/css" href="/portfolio/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Jake J Davis - Programmer" href="/portfolio/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
@@ -55,7 +54,7 @@
   <h1>About</h1>
 
   <div class="entry">
-    <p>A hobbyist programmer studying computer science aged 14</p>
+    <p>A hobbyist programmer studying computer science aged <span class="age"></span></p>
 
 <h3 id="contact-me">Contact me</h3>
 
@@ -88,5 +87,32 @@
 
     
 
+    <script>
+    window.onload = function() {
+        function calculateAge(birthYear, birthMonth, birthDay) {
+            todayDate = new Date();
+            todayYear = todayDate.getFullYear();
+            todayMonth = todayDate.getMonth();
+            todayDay = todayDate.getDate();
+            age = todayYear - birthYear;
+
+            if ( todayMonth < (birthMonth - 1))
+            {
+                age--;
+            }
+            if (((birthMonth - 1) == todayMonth) && (todayDay < birthDay))
+            {
+                age--;
+            }
+            return age;
+        }
+
+        var ageElements = document.getElementsByClassName("age");
+
+        for (i = 0; i < ageElements.length; i++) {
+            ageElements[i].innerHTML = calculateAge(2002, 05, 28);
+        }
+    };
+</script>
   </body>
 </html>
