@@ -1,1 +1,1 @@
-Sitemap: https://jakejdavis.me/portfolio/sitemap.xml
+Sitemap: http://localhost:4000/portfolio/sitemap.xml
