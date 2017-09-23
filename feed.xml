@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="https://jakejdavis.me/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jakejdavis.me/portfolio/" rel="alternate" type="text/html" /><updated>2017-09-23T22:54:19+01:00</updated><id>https://jakejdavis.me/portfolio/</id><title type="html">Jake J Davis</title><subtitle>Programmer</subtitle><entry><title type="html">Priory Student</title><link href="https://jakejdavis.me/portfolio/Priory-Student/" rel="alternate" type="text/html" title="Priory Student" /><published>2017-05-29T00:00:00+01:00</published><updated>2017-05-29T00:00:00+01:00</updated><id>https://jakejdavis.me/portfolio/Priory-Student</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Priory-Student/">&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="https://jakejdavis.me/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jakejdavis.me/portfolio/" rel="alternate" type="text/html" /><updated>2017-09-23T22:55:45+01:00</updated><id>https://jakejdavis.me/portfolio/</id><title type="html">Jake J Davis</title><subtitle>Programmer</subtitle><entry><title type="html">Priory Student</title><link href="https://jakejdavis.me/portfolio/Priory-Student/" rel="alternate" type="text/html" title="Priory Student" /><published>2017-05-29T00:00:00+01:00</published><updated>2017-05-29T00:00:00+01:00</updated><id>https://jakejdavis.me/portfolio/Priory-Student</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Priory-Student/">&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;The one central place for students to find everything they need for school.
-The app contains:
-• A Rewards &amp;amp; Behaviour Overview
-• To Dos
-• Your Timetable
-• Wellbeing, Pastoral &amp;amp; Self Support
-• Student Voice 
-• General School Information (bulletin)&lt;/p&gt;
+The app contains:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A Rewards &amp;amp; Behaviour Overview&lt;/li&gt;
+  &lt;li&gt;To Dos&lt;/li&gt;
+  &lt;li&gt;Your Timetable&lt;/li&gt;
+  &lt;li&gt;Wellbeing, Pastoral &amp;amp; Self Support&lt;/li&gt;
+  &lt;li&gt;Student Voice&lt;/li&gt;
+  &lt;li&gt;General School Information (bulletin)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;To use this app simply login with your school username and password with no separate signup required.&lt;/p&gt;
 
