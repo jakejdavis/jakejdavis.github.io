@@ -1,19 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="https://jakejdavis.me/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jakejdavis.me/portfolio/" rel="alternate" type="text/html" /><updated>2017-09-23T22:20:47+01:00</updated><id>https://jakejdavis.me/portfolio/</id><title type="html">Jake J Davis</title><subtitle>Programmer</subtitle><entry><title type="html">Priory Student</title><link href="https://jakejdavis.me/portfolio/Priory-Student/" rel="alternate" type="text/html" title="Priory Student" /><published>2017-05-29T00:00:00+01:00</published><updated>2017-05-29T00:00:00+01:00</updated><id>https://jakejdavis.me/portfolio/Priory-Student</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Priory-Student/">&lt;p&gt;The Priory Student app aims to help Priory Students by containing information like:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Rewards &amp;amp; Behavior Overview&lt;/li&gt;
-  &lt;li&gt;To Dos&lt;/li&gt;
-  &lt;li&gt;Timetable&lt;/li&gt;
-  &lt;li&gt;Pastoral &amp;amp; Self Support&lt;/li&gt;
-  &lt;li&gt;Student Voice&lt;/li&gt;
-  &lt;li&gt;General School information (bulletin)
-all in one place.&lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="https://jakejdavis.me/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jakejdavis.me/portfolio/" rel="alternate" type="text/html" /><updated>2017-09-23T22:46:02+01:00</updated><id>https://jakejdavis.me/portfolio/</id><title type="html">Jake J Davis</title><subtitle>Programmer</subtitle><entry><title type="html">Priory Student</title><link href="https://jakejdavis.me/portfolio/Priory-Student/" rel="alternate" type="text/html" title="Priory Student" /><published>2017-05-29T00:00:00+01:00</published><updated>2017-05-29T00:00:00+01:00</updated><id>https://jakejdavis.me/portfolio/Priory-Student</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Priory-Student/">&lt;p&gt;The one central place for students to find everything they need for school.
+The app contains:
+• A Rewards &amp;amp; Behaviour Overview
+• To Dos
+• Your Timetable
+• Wellbeing, Pastoral &amp;amp; Self Support
+• Student Voice 
+• General School Information (bulletin)&lt;/p&gt;
 
-&lt;p&gt;The Priory Student app is available on different platforms:&lt;/p&gt;
+&lt;p&gt;To use this app simply login with your school username and password with no separate signup required.&lt;/p&gt;
+
+&lt;p&gt;The Priory Student app is being created on different platforms:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;iOS and Android - Hybrid Mobile App&lt;/li&gt;
   &lt;li&gt;Web connected devices - Web App&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="project" /><summary type="html">The Priory Student app aims to help Priory Students by containing information like: Rewards &amp;amp; Behavior Overview To Dos Timetable Pastoral &amp;amp; Self Support Student Voice General School information (bulletin) all in one place.</summary></entry><entry><title type="html">Finding &amp;amp; Using Hidden APIs</title><link href="https://jakejdavis.me/portfolio/Using-Hidden-APIs/" rel="alternate" type="text/html" title="Finding &amp; Using Hidden APIs" /><published>2017-03-25T00:00:00+00:00</published><updated>2017-03-25T00:00:00+00:00</updated><id>https://jakejdavis.me/portfolio/Using-Hidden-APIs</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Using-Hidden-APIs/">&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At the moment the hybrid mobile app is in alpha and you can enroll in testing by following the instructions below:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;iOS - You can contact me at (contact@jakejdavis.me)[mailto:contact@jakejdavis.me] to be asked to be enrolled&lt;/li&gt;
+  &lt;li&gt;Android - You can enroll in android testing at (https://play.google.com/apps/testing/me.jakejdavis.priorystudentappnative)[https://play.google.com/apps/testing/me.jakejdavis.priorystudentappnative]
+If you notice any bugs (which there will be many) you and send bug reports @ (contact@jakejdavis.me)[mailto:contact@jakejdavis.me]&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="project" /><summary type="html">The one central place for students to find everything they need for school. The app contains: • A Rewards &amp;amp; Behaviour Overview • To Dos • Your Timetable • Wellbeing, Pastoral &amp;amp; Self Support • Student Voice • General School Information (bulletin)</summary></entry><entry><title type="html">Finding &amp;amp; Using Hidden APIs</title><link href="https://jakejdavis.me/portfolio/Using-Hidden-APIs/" rel="alternate" type="text/html" title="Finding &amp; Using Hidden APIs" /><published>2017-03-25T00:00:00+00:00</published><updated>2017-03-25T00:00:00+00:00</updated><id>https://jakejdavis.me/portfolio/Using-Hidden-APIs</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Using-Hidden-APIs/">&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
 &lt;p&gt;Before following this tutorial I would recommend asking the owner/owners of the APIs if they permit external usage of their APIs&lt;/p&gt;
 
 &lt;h2 id=&quot;tutorial&quot;&gt;Tutorial&lt;/h2&gt;
