@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="https://jakejdavis.me/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jakejdavis.me/portfolio/" rel="alternate" type="text/html" /><updated>2017-09-24T12:52:06+01:00</updated><id>https://jakejdavis.me/portfolio/</id><title type="html">Jake J Davis</title><subtitle>Programmer</subtitle><entry><title type="html">Priory Student</title><link href="https://jakejdavis.me/portfolio/Priory-Student/" rel="alternate" type="text/html" title="Priory Student" /><published>2017-09-24T00:00:00+01:00</published><updated>2017-09-24T00:00:00+01:00</updated><id>https://jakejdavis.me/portfolio/Priory-Student</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Priory-Student/">&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="https://jakejdavis.me/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jakejdavis.me/portfolio/" rel="alternate" type="text/html" /><updated>2017-11-01T23:47:36+00:00</updated><id>https://jakejdavis.me/portfolio/</id><title type="html">Jake J Davis</title><subtitle>Programmer</subtitle><entry><title type="html">Priory Student</title><link href="https://jakejdavis.me/portfolio/Priory-Student/" rel="alternate" type="text/html" title="Priory Student" /><published>2017-09-24T00:00:00+01:00</published><updated>2017-09-24T00:00:00+01:00</updated><id>https://jakejdavis.me/portfolio/Priory-Student</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Priory-Student/">&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;The one central place for students to find everything they need for school.
 The app contains:&lt;/p&gt;
@@ -27,36 +27,4 @@ The app contains:&lt;/p&gt;
   &lt;li&gt;Android - You can enroll in Android testing &lt;a href=&quot;https://play.google.com/apps/testing/me.jakejdavis.priorystudentappnative]&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you notice any bugs (which there will be many) you and send bug reports @ &lt;a href=&quot;mailto:contact@jakejdavis.me&quot;&gt;contact@jakejdavis.me&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Description</summary></entry><entry><title type="html">Finding &amp;amp; Using Hidden APIs</title><link href="https://jakejdavis.me/portfolio/Using-Hidden-APIs/" rel="alternate" type="text/html" title="Finding &amp; Using Hidden APIs" /><published>2017-03-25T00:00:00+00:00</published><updated>2017-03-25T00:00:00+00:00</updated><id>https://jakejdavis.me/portfolio/Using-Hidden-APIs</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Using-Hidden-APIs/">&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
-&lt;p&gt;Before following this tutorial I would recommend asking the owner/owners of the APIs if they permit external usage of their APIs&lt;/p&gt;
-
-&lt;h2 id=&quot;tutorial&quot;&gt;Tutorial&lt;/h2&gt;
-&lt;p&gt;For my Priory App I wanted to intergrate Show My Homework and E-Praise together, unfortunately neither have public APIs avaliable. To find out how SMHW and Epraise works I used an app called &lt;a href=&quot;https://play.google.com/store/apps/details?id=app.greyshirts.sslcapture&quot;&gt;Packet Capture&lt;/a&gt; which installs a ssl certificate to your device so it can view network traffic though https as well as http. This app is only avaliable on Android but works on non-rooted devices which is the reason I use this app over others.&lt;/p&gt;
-
-&lt;p&gt;1) So, this app is pretty simple to use, to start logging network traffic just click the play icon in the top right corner.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Using-Hidden-APIs/1.png&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2) Then all you have to do is use the app that you want to log traffic for, some apps may not work like Instagram for example.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Using-Hidden-APIs/2.png&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;3) Return back to the app and stop the logging, on this list you can see all the captures that you have ran, click on the most recent (the top one) to view the captures&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Using-Hidden-APIs/3.png&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;4) This list shows all the network requests for each app during the time which you were logging, click on one to view the data sent and received&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Using-Hidden-APIs/4.png&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;5) This shows the raw data sent between the device and the server, you can see the url and headers but unfortunately the content is unreadable and just a mix of symbols&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Using-Hidden-APIs/5.png&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;6) To view this content click on the top right icon labelled “http”, this shows the decoded data and is the reason that the app installs the certificate on the first run.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Using-Hidden-APIs/6.png&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This app was very useful for helping me find out about the SMHW and Epraise APIs for example, what urls I have to request with what headers and what information it will return.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading :)&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Disclaimer Before following this tutorial I would recommend asking the owner/owners of the APIs if they permit external usage of their APIs</summary></entry></feed>
+&lt;p&gt;If you notice any bugs (which there will be many) you and send bug reports @ &lt;a href=&quot;mailto:contact@jakejdavis.me&quot;&gt;contact@jakejdavis.me&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Description</summary></entry></feed>
