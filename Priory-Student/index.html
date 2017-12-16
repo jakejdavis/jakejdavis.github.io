@@ -110,7 +110,13 @@ If you notice any bugs (which there will be many) you and send bug reports @ con
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="/portfolio/" class="site-avatar" alt="Avatar Photo"><img src="/portfolio/images/avatar.webp" alt="Avatar Photo"/></a>
+          <a href="/portfolio/" class="site-avatar" alt="Avatar Photo">
+            <picture>
+              <source srcset="/portfolio/images/avatar.webp" type="image/webp">
+              <source srcset="/portfolio/images/avatar.jpg" type="image/jpeg">
+              <img src="/portfolio/images/avatar.jpg" alt="Avatar Photo"/>
+            </picture>
+          </a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="/portfolio/">Jake J Davis</a></h1>
