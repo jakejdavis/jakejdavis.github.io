@@ -134,6 +134,9 @@ If you notice any bugs (which there will be many) you and send bug reports @ con
     </div>
 
     <div id="main" role="main" class="container">
+      <script>
+        document.getElementById("main").classList.add('fade');
+       </script>
       <article class="post">
   <h1>Priory Student</h1>
 
@@ -189,6 +192,11 @@ The app contains:</p>
       </div>
     </div>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function(e) {
+        document.getElementById("main").classList.remove('fade');
+      });
+    </script>
     <script>
     window.onload = function() {
         function calculateAge(birthYear, birthMonth, birthDay) {

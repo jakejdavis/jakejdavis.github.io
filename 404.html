@@ -72,6 +72,9 @@
     </div>
 
     <div id="main" role="main" class="container">
+      <script>
+        document.getElementById("main").classList.add('fade');
+       </script>
       <article class="page">
 
   <h1>404 - Page not found</h1>
@@ -97,6 +100,11 @@
       </div>
     </div>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function(e) {
+        document.getElementById("main").classList.remove('fade');
+      });
+    </script>
     <script>
     window.onload = function() {
         function calculateAge(birthYear, birthMonth, birthDay) {
