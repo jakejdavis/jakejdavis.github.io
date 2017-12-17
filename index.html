@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" type="text/css" href="/portfolio/style.css" async />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css" integrity="sha256-hmDtEnmZFvJ3zLsfobp03CSD3/qRCJmY3f7Vqf6zIgA=" crossorigin="anonymous"  async/>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <link rel="alternate" type="application/rss+xml" title="Jake J Davis - Software Developer" href="/portfolio/feed.xml" />
     
@@ -77,28 +78,150 @@
   <h1></h1>
 
   <div class="entry">
-    <p><span style="font-size: x-large;">
-    Hello, I’m Jake. I am a student, aged <span class="age">00</span>, who has an interest in software development and programming.
-</span></p>
+    <style>
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-<p>Check out my Github profile: <a href="https://github.com/jakejdavis/">@jakejdavis</a></p>
+.skill-item {
+    display: flex; 
+    flex-direction: row;
+    margin: 10px 0;
+    flex-basis: 50%
+}
 
-<h3 id="skills">Skills</h3>
+.skill-text {
+    padding-left: 10px;
+}
 
-<ul>
-  <li>Python</li>
-  <li>HTML</li>
-  <li>CSS &amp; SCSS</li>
-  <li>JS
-    <ul>
-      <li>React JS</li>
-      <li>React Native</li>
-      <li>Vue</li>
-    </ul>
-  </li>
-  <li>PHP</li>
-</ul>
+.skill-icon {
+    font-size: 60pt
+}
 
+.skill-text > h4 {
+    margin-top: 0;
+}
+</style>
+
+<span style="font-size: x-large;">
+    Hello, I'm Jake. I am a student, aged <span class="age">00</span>, who has an interest in software development and programming.
+</span>
+<br/><br/>
+
+Check out my Github profile: <a href="https://github.com/jakejdavis/">@jakejdavis</a>
+
+<h3>Skills</h3>
+
+<div class="skills">
+        
+    <div class="skill-item">
+        <i class="devicon-python-plain-wordmark skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>Python</h4>
+            <ul>
+                <li>Flask</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-html5-plain-wordmark skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>HTML5</h4>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-css3-plain-wordmark skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>CSS</h4>
+            <ul>
+                <li>SCSS</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-nodejs-plain skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>JS</h4>
+            <ul>
+                <li>NodeJS</li>
+                <li>ReactJS</li>
+                <li>React Native</li>
+                <li>VueJS</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-csharp-plain skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>C#</h4>
+            <ul>
+                <li>ASP.NET</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-php-plain skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>PHP</h4>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-mongodb-plain skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>MongoDB</h4>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-git-plain skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>Git</h4>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-linux-plain skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>Linux</h4>
+            <ul>
+                <li>Bash</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-nginx-plain skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>NGINX</h4>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <i class="devicon-photoshop-plain skill-icon colored"></i>
+
+        <div class="skill-text">
+            <h4>Photoshop</h4>
+        </div>
+    </div>
+
+</div>
   </div>
 </article>
 
