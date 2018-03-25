@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://jakejdavis.me/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jakejdavis.me/portfolio/" rel="alternate" type="text/html" /><updated>2018-03-18T18:30:14+00:00</updated><id>https://jakejdavis.me/portfolio/</id><title type="html">Jake J Davis</title><subtitle>Software Developer</subtitle><entry><title type="html">Priory Student</title><link href="https://jakejdavis.me/portfolio/Priory-Student/" rel="alternate" type="text/html" title="Priory Student" /><published>2017-09-24T00:00:00+01:00</published><updated>2017-09-24T00:00:00+01:00</updated><id>https://jakejdavis.me/portfolio/Priory-Student</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Priory-Student/">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="https://jakejdavis.me/portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jakejdavis.me/portfolio/" rel="alternate" type="text/html" /><updated>2018-03-26T00:33:32+01:00</updated><id>https://jakejdavis.me/portfolio/</id><title type="html">Jake J Davis</title><subtitle>Software Developer</subtitle><entry><title type="html">Priory Student</title><link href="https://jakejdavis.me/portfolio/Priory-Student/" rel="alternate" type="text/html" title="Priory Student" /><published>2017-09-24T00:00:00+01:00</published><updated>2017-09-24T00:00:00+01:00</updated><id>https://jakejdavis.me/portfolio/Priory-Student</id><content type="html" xml:base="https://jakejdavis.me/portfolio/Priory-Student/">&lt;style&gt;
 h2old {
   color: #dddddd;
 }
@@ -73,14 +73,18 @@ aold {
 		Currently, the hybrid mobile app is in alpha and you can enroll in testing by following the instructions below:
 		&lt;div style=&quot;display: flex; justify-content: center; flex-wrap: wrap; padding: 10px&quot;&gt;
 			&lt;div style=&quot;display: flex;  flex-direction: column; align-items: center; flex-basis: 50%&quot;&gt;
-				&lt;img src=&quot;http://www.stickpng.com/assets/images/5847e95fcef1014c0b5e4822.png&quot; style=&quot;width: 250px&quot;/&gt;
+				&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSclcBzZaFww_8QjNJlr2eXs9S77Hz9QZpXvoNCNcpDjRnZVPQ/viewform?usp=sf_link&quot;&gt;
+				    &lt;img src=&quot;http://www.stickpng.com/assets/images/5847e95fcef1014c0b5e4822.png&quot; style=&quot;width: 250px&quot;/&gt;
+				&lt;/a&gt;
 				&lt;p&gt;
 				    iOS - You can sign up for iOS testing &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSclcBzZaFww_8QjNJlr2eXs9S77Hz9QZpXvoNCNcpDjRnZVPQ/viewform?usp=sf_link&quot;&gt;here&lt;/a&gt;
 				&lt;/p&gt;
 			&lt;/div&gt;
 
 			&lt;div style=&quot;display: flex; flex-direction: column; align-items: center; flex-basis: 50%&quot;&gt;
-				&lt;img src=&quot;https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png&quot; style=&quot;width: 250px;&quot;&gt;
+				&lt;a href=&quot;https://play.google.com/apps/testing/me.jakejdavis.priorystudentappnative&quot;&gt;
+				    &lt;img src=&quot;https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png&quot; style=&quot;width: 250px;&quot;&gt;
+				&lt;/a&gt;
 				&lt;p&gt;
 				    Android - You can enroll in Android testing &lt;a href=&quot;https://play.google.com/apps/testing/me.jakejdavis.priorystudentappnative&quot;&gt;here&lt;/a&gt;
 				&lt;/p&gt;
@@ -92,4 +96,4 @@ aold {
 		If you notice any bugs you can send bug reports @ &lt;a href=&quot;mailto:contact@jakejdavis.me&quot;&gt;contact@jakejdavis.me&lt;/a&gt;
 
 	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><summary type="html">Priory Student Description The one central place for students to find everything they need for school. The app contains: A Rewards &amp; Behaviour Overview To Dos Your Timetable Wellbeing, Pastoral &amp; Self Support Student Leadership Committee General School Information (bulletin) To use this app simply login with your school username and password with no separate signup required. The Priory Student app is being created on different platforms: iOS and Android - Hybrid Mobile App Web connected devices - Web App Testing Currently, the hybrid mobile app is in alpha and you can enroll in testing by following the instructions below: iOS - You can sign up for iOS testing here Android - You can enroll in Android testing here If you notice any bugs you can send bug reports @ contact@jakejdavis.me</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><summary type="html">h2old { color: #dddddd; }</summary></entry></feed>
